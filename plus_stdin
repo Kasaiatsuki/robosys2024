@@ -2,11 +2,14 @@
 # SPDX-FileCopyrightText: 2024 Atsuki Kasai
 import sys  
 
+def tomum(s)
+    try:
+        return int(s)
+    except:
+        return float(s)
+
 ans = 0
 for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line)
+    line = line.rtrip()
 
 print(ans)
