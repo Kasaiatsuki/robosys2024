@@ -4,7 +4,7 @@
 import sys  
 
 
-def tonus(s):
+def tonum(s):
     try:
         return int (s)
     except:
@@ -12,7 +12,7 @@ def tonus(s):
 
 ans = 0
 for line in sys.stdin:
-    line = line.rtrip()
+    line = line.rstrip()
     ans += tonum(line)
 
 
