@@ -16,7 +16,7 @@ lucky は以下の機能を提供します．
 　・Python 3.6,3.7,3.8,3.9,3.10
  ---
  # インストール
- 'git clone https://github.com/Kasaiatsuki/lucky.git'
- cd lucky
-
+```bash
+git clone https://github.com/Kasaiatsuki/lucky.git
+cd lucky
  
