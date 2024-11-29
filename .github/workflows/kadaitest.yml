@@ -1,4 +1,4 @@
-name: Test Kadaiprogram
+name: Kadaitest
 
 on:
   push:
@@ -9,39 +9,23 @@ on:
       - main
 
 jobs:
-  build-and-test:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: リポジトリのチェックアウト
       uses: actions/checkout@v3
 
-    - name: Set up GCC
-      run: sudo apt-get update && sudo apt-get install -y gcc
+    - name: Pythonのセットアップ
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
 
-    - name: Compile the code
-      run: gcc -o omikuji main.c
-
-    - name: Test Omikuji
+    - name: 実行権限の付与
       run: |
-        echo "1" | ./omikuji > output_omikuji.txt
-        echo "2" | ./omikuji > output_color.txt
+        chmod +x lucky
+        chmod +x kadaitest.bash
 
-    - name: Verify Omikuji Output
-      run: |
-        if grep -q "おみくじの結果" output_omikuji.txt; then
-          echo "Omikuji test passed!";
-        else
-          echo "Omikuji test failed!";
-          exit 1;
-        fi
-
-    - name: Verify Color Output
-      run: |
-        if grep -q "ラッキーカラー" output_color.txt; then
-          echo "Color test passed!";
-        else
-          echo "Color test failed!";
-          exit 1;
-        fi
+    - name: テストの実行
+      run: ./kadaitest.bash
 
