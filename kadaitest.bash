@@ -16,8 +16,6 @@ for PYTHON in "${PYTHON_VERSIONS[@]}"; do
         $PYTHON -m venv $ENV_DIR
         source $ENV_DIR/bin/activate
 
-        # 必要に応じて依存関係をインストール（今回は省略）
-
         # テスト1: おみくじ
         echo "1" | ./kadai/lucky > output1.txt
         if grep -q "今日（" output1.txt && grep -q "のおみくじの結果は" output1.txt; then
