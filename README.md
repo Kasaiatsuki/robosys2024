@@ -13,14 +13,10 @@ lucky は以下の機能を提供します．
 ---
 # 動作環境
 ・Python (以下のバージョンをサポート)
-　・Python 3.6
-　・Python 3.7
-　・Python 3.8
-　・Python 3.9
-　・Python 3.10
+　・Python 3.6,3.7,3.8,3.9,3.10
  ---
  # インストール
-  　　git clone https://github.com/Kasaiatsuki/lucky.git
-  　　cd lucky
+ 'git clone https://github.com/Kasaiatsuki/lucky.git'
+ cd lucky
 
  
