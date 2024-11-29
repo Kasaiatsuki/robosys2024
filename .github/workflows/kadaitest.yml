@@ -1,0 +1,47 @@
+name: Test Kadaiprogram
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up GCC
+      run: sudo apt-get update && sudo apt-get install -y gcc
+
+    - name: Compile the code
+      run: gcc -o omikuji main.c
+
+    - name: Test Omikuji
+      run: |
+        echo "1" | ./omikuji > output_omikuji.txt
+        echo "2" | ./omikuji > output_color.txt
+
+    - name: Verify Omikuji Output
+      run: |
+        if grep -q "おみくじの結果" output_omikuji.txt; then
+          echo "Omikuji test passed!";
+        else
+          echo "Omikuji test failed!";
+          exit 1;
+        fi
+
+    - name: Verify Color Output
+      run: |
+        if grep -q "ラッキーカラー" output_color.txt; then
+          echo "Color test passed!";
+        else
+          echo "Color test failed!";
+          exit 1;
+        fi
+
