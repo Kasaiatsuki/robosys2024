@@ -1,3 +1,4 @@
 # robosys2024
 ロボットシステム学授業用
-# プラスコマンド
+# plusコマンド
+![test](https://github.com/kasaiatsuki/robosys2024/actions/workflows/kadaitest.yml/badge.svg)
