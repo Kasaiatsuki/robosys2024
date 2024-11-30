@@ -41,6 +41,7 @@ cd lucky
 1: おみくじ
 2: ラッキーカラー
 選択してください (1または2): 今日（YYYY-MM-DD）のおみくじの結果は... 大吉 です！
+```
 ---
 # 参考文献
 - [ロボットシステム学第3回: Linux環境でのPythonプログラミングII](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson3.html)
