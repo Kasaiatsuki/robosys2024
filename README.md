@@ -20,8 +20,8 @@ Ubuntu 20.04
  ---
  # インストール
 ```bash
-git clone https://github.com/Kasaiatsuki/lucky.git
-cd lucky
+git clone https://github.com/Kasaiatsuki/robosys2024.git
+cd kadai
 ```
 # 起動手順
 ```bash
