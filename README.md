@@ -21,7 +21,7 @@ Ubuntu 20.04
  # インストール
 ```bash
 git clone https://github.com/Kasaiatsuki/robosys2024.git
-cd kadai
+cd robosys2024/kadai
 ```
 # 起動手順
 ```bash
