@@ -42,7 +42,7 @@ cd lucky
 - [ロボットシステム学第6回: ソフトウェアのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html#1)
 - [ロボットシステム学第7回: GitHubでのテスト](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1)
 - [pythonで乱数シード(seed)を設定する３種の方法](https://python-ai-learn.com/2021/02/06/seed/?utm_source=chatgpt.com)
-- 
+- [Pythonで標準入力から入力を受け取る方法](https://iifx.dev/ja/articles/5420631)
 - 
 # ライセンスと著作権
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
