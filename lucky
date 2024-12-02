@@ -12,18 +12,11 @@ colors = ["赤", "青", "緑", "黄色", "ピンク", "紫", "白", "黒"]
 # おみくじ結果配列
 fortunes = ["大吉", "中吉", "小吉", "吉", "末吉", "凶", "大凶"]
 
-def generate_seed(year, month, day, type_str):
-    """
-    シードを生成する関数
-    :param year: 年
-    :param month: 月
-    :param day: 日
-    :param type_str: 種別文字列
-    :return: 生成されたシード
-    """
+    #  シードを生成する関数
+def generate_seed(year, month, day, type_str):  #type_str:種別文字列
     seed = year * 10000 + month * 100 + day
     for char in type_str:
-        seed += ord(char)  # 文字列の各文字のASCII値を加算
+        seed += ord(char)  # 文字列の各文字の値を加算
     return seed
 
 def main():
