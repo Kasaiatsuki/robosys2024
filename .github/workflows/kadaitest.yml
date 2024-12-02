@@ -24,7 +24,7 @@ jobs:
 
     - name: 実行権限の付与
       run: |
-        chmod +x kadai/lucky
+        chmod +x lucky
         chmod +x kadaitest.bash
 
     - name: テストの実行
