@@ -13,18 +13,15 @@ kadai/lucky は以下の機能を提供します．
 
 ---
 # 動作環境
-- Python (以下のバージョンをサポート)
+以下のバージョンをサポート
 - Python 3.6 ~ 3.10
 # テスト環境
-Ubuntu 20.04
+- Ubuntu 20.04
  ---
- # インストール
+ # 起動手順
 ```bash
 git clone https://github.com/Kasaiatsuki/robosys2024.git
 cd robosys2024/kadai
-```
-# 起動手順
-```bash
 ./lucky
 ```
 で実行すると，下の選択画面が表示されるので1または2選択してください．
