@@ -50,6 +50,6 @@ cd robosys2024/kadai
 # ライセンスと著作権
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージのコードの一部分は,下記のスライド(CC-BY-SA 4.0 by ryuichi ueda)のものを本人の許可を得て自身の著作としたものです.
-- https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
-  * © 2024 Atsuki Kasai
+   * https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
+*  © 2024 Atsuki Kasai
 
