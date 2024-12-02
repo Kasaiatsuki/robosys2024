@@ -1,30 +1,26 @@
-# robosys2024
-ロボットシステム学授業用
+
 # 今日の運勢＆ラッキーカラーコマンド
 ![test](https://github.com/kasaiatsuki/robosys2024/actions/workflows/kadaitest.yml/badge.svg)
 
 このコマンドはその日の運勢とラッキーカラーが分かるPythonプログラムです．また，テストを行うスクリプトも含まれています．
 ---
 # 概要
-kadai/lucky は以下の機能を提供します．
-1. 運勢:「大吉」「中吉」「凶」などの結果を生成.
-2. ラッキーカラー: ランダムにラッキーカラー「赤」「青」「緑」などを生成．
-3. １日に異なる運勢，ラッキーカラーが出ることはありません．
+* kadai/lucky は以下の機能を提供します．
+  * 運勢:「大吉」「中吉」「凶」などの結果を生成.
+  * ラッキーカラー: ランダムにラッキーカラー「赤」「青」「緑」などを生成．
+  * １日に異なる運勢，ラッキーカラーが出ることはありません．
 
 ---
 # 動作環境
-- Python (以下のバージョンをサポート)
-- Python 3.6 ~ 3.10
+* 以下のバージョンをサポート
+   * Python 3.6 ~ 3.10
 # テスト環境
-Ubuntu 20.04
+- Ubuntu 20.04
  ---
- # インストール
+ # 起動手順
 ```bash
 git clone https://github.com/Kasaiatsuki/robosys2024.git
 cd robosys2024/kadai
-```
-# 起動手順
-```bash
 ./lucky
 ```
 で実行すると，下の選択画面が表示されるので1または2選択してください．
@@ -55,5 +51,5 @@ cd robosys2024/kadai
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージのコードの一部分は,下記のスライド(CC-BY-SA 4.0 by ryuichi ueda)のものを本人の許可を得て自身の著作としたものです.
 - https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
-- © 2024 Atsuki Kasai
+  * © 2024 Atsuki Kasai
 
